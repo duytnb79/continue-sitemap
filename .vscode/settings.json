@@ -1,0 +1,80 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.debug": true,
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "vue"
+    ],
+    "files.associations": {
+        "*.template": "yaml"
+    },
+    "files.eol": "\n",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "vetur.validation.script": false,
+    "vetur.validation.template": false,
+    "yaml.customTags": [
+        "!Condition",
+        "!And sequence",
+        "!Equals sequence",
+        "!If sequence",
+        "!Not sequence",
+        "!Or sequence",
+        "!FindInMap sequence",
+        "!GetAtt",
+        "!GetAtt sequence",
+        "!GetAZs",
+        "!ImportValue",
+        "!Join sequence",
+        "!Ref",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub sequence",
+        "!Sub",
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap",
+        "!Base64",
+        "!Join",
+        "!Cidr",
+        "!ImportValue sequence",
+        "!Select",
+        "!Split"
+    ],
+    "yaml.format.printWidth": 120,
+    "yaml.format.singleQuote": true,
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "jest.autoRun": {},
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+}
